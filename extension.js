@@ -1,5 +1,5 @@
 (function () {
-    API.sendChat("Loading AGM-Bot V2.0")
+    API.sendChat("Loading AGM-Bot V2.0");
 
     // Change this to your GitHub username so you don't have to modify so many things.
     var fork = "parkeerwacht";
