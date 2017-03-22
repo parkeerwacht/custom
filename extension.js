@@ -49,8 +49,8 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
       botName: "AGM-Bot",
       language: "english",
-      chatLink: "https://raw.githubusercontent.com/parkeerwacht/custom/master/lang/en.json",
-      scriptLink: "https://raw.githubusercontent.com/parkeerwacht/custom/master/basicBot.js",
+      chatLink: "https://rawgit.com/parkeerwacht/custom/master/lang/en.json",
+      scriptLink: "https://rawgit.com/parkeerwacht/custom/master/basicBot.js",
       roomLock: false, // Requires an extension to re-load the script
       startupCap: 1, // 1-200
       startupVolume: 0, // 0-100
@@ -115,6 +115,6 @@
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://raw.githubusercontent.com/parkeerwacht/custom/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/parkeerwacht/custom/master/basicBot.js", extend);
 
 }).call(this);
