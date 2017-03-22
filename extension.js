@@ -1,7 +1,8 @@
 (function () {
+    API.sendChat("Loading AGM-Bot V2.0")
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "parkeerwacht";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -46,7 +47,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
+      botName: "AGM-Bot",
       language: "english",
       chatLink: "https://rawgit.com/basicBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/basicBot/source/master/basicBot.js",
@@ -57,12 +58,12 @@
       autowoot: true,
       autoskip: false,
       smartSkip: true,
-      cmdDeletion: true,
+      cmdDeletion: false,
       maximumAfk: 120,
-      afkRemoval: true,
-      maximumDc: 60,
+      afkRemoval: false,
+      maximumDc: 30,
       bouncerPlus: true,
-      blacklistEnabled: true,
+      blacklistEnabled: false,
       lockdownEnabled: false,
       lockGuard: false,
       maximumLocktime: 10,
@@ -70,20 +71,22 @@
       maximumCycletime: 10,
       voteSkip: false,
       voteSkipLimit: 10,
-      historySkip: false,
+      historySkip: true,
       timeGuard: true,
       maximumSongLength: 10,
       autodisable: false,
       commandCooldown: 30,
       usercommandsEnabled: true,
-      skipPosition: 3,
+      skipPosition: 1,
       skipReasons: [
       ["theme", "This song does not fit the room theme. "],
       ["op", "This song is on the OP list. "],
       ["history", "This song is in the history. "],
-      ["mix", "You played a mix, which is against the rules. "],
+      ["10min", "The song you played is too long (10 mimnute max) "],
       ["sound", "The song you played had bad sound quality or no sound. "],
       ["nsfw", "The song you contained was NSFW (image or sound). "],
+      ["dead", "The song you played was not available for some users. "],
+      ["rip", "The song you played was not available for some users. "],
       ["unavailable", "The song you played was not available for some users. "]
       ],
       afkpositionCheck: 15,
@@ -91,12 +94,12 @@
       motdEnabled: false,
       motdInterval: 5,
       motd: "Temporary Message of the Day",
-      filterChat: true,
+      filterChat: false,
       etaRestriction: false,
       welcome: true,
       opLink: null,
-      rulesLink: null,
-      themeLink: null,
+      rulesLink: "https://akari.in/AGM-Rules",
+      themeLink: "https://akari.in/AGM-Rules",
       fbLink: null,
       youtubeLink: null,
       website: null,
