@@ -47,7 +47,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "AGM-Bot",
+      botName: "Meep-Bot",
       language: "english",
       chatLink: "https://rawgit.com/parkeerwacht/custom/master/lang/mainstage.json",
       scriptLink: "https://rawgit.com/parkeerwacht/custom/master/basicBot-mainstage.js",
