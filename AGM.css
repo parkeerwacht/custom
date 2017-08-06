@@ -1,0 +1,247 @@
+
+
+#chat .emote:nth-child(2n+1), #chat .mention:nth-child(2n+1), #chat .message:nth-child(2n+1), #chat .moderation:nth-child(2n+1), #chat .skip:nth-child(2n+1), #chat .update:nth-child(2n+1), #chat .welcome:nth-child(2n+1) {
+    -moz-animation: fadein 0.25s;
+    -ms-animation: fadein 0.25s;
+    -o-animation: fadein 0.25s;
+    -webkit-animation: fadein 0.25s;
+    animation: fadein 0.25s;
+    background-color: #111317;
+    border-radius: 10px;
+}
+
+#chat .message:hover, #chat .emote:hover, #chat .update:hover {
+    -moz-transition: 100ms linear 50ms;
+    -o-transition: 100ms linear 50ms;
+    -webkit-transition: 100ms linear 50ms;
+    border-left: #FFFFFF 3px solid;
+    padding-left: 2px;
+    text-decoration: none;
+    transition: 100ms linear 50ms;
+}
+
+#chat-messages>div {
+    -moz-animation-duration: .001s;
+    -moz-animation-name: emojiNodeInserted;
+    -ms-animation-duration: .001s;
+    -ms-animation-name: emojiNodeInserted;
+    -o-animation-duration: .001s;
+    -o-animation-name: emojiNodeInserted;
+    -webkit-animation-duration: .001s;
+    -webkit-animation-name: emojiNodeInserted;
+    animation-duration: .001s;
+    animation-name: emojiNodeInserted;
+}
+
+#chat .timestamp {
+    display: none;
+}
+#dj-button .left {
+    background: linear-gradient(to bottom,rgba(0, 46, 230, 0.75) 0,rgba(0, 177, 221, 0.75) 100%);
+}
+
+#dj-button.is-quit .left, #dj-button.is-leave .left, #playlist-delete-button:hover {
+    background: linear-gradient(to bottom,rgba(255, 0, 0, 0.74) 0,rgba(255, 41, 0, 0.75) 100%);
+}
+#footer-user.available {
+    background: linear-gradient(to bottom,rgba(76, 122, 50, 0.8) 0,rgba(0, 0, 0, 0) 100%);
+    top: 1px;
+}
+
+#footer-user.away {
+    background: linear-gradient(to bottom,rgba(109, 92, 40, 0.8) 0,rgba(0, 0, 0, 0) 100%);
+    top: 1px;
+}
+#footer-user.working {
+    background: linear-gradient(to bottom,rgba(132, 41, 25, 0.8) 0,rgba(0, 0, 0, 0) 100%);
+    top: 1px;
+}
+
+#grab.selected {
+    background: linear-gradient(to bottom,rgba(170, 116, 255, 0.94) 0,rgba(83, 30, 104, 1) 100%);
+}
+
+#meh.selected {
+    background: linear-gradient(to bottom,rgba(220, 0, 0, 1) 0,rgba(100, 0, 0, 1) 100%);
+}
+
+#toast-notifications .notification .right {
+    background: linear-gradient(to bottom, rgba(14, 14, 15, 0), rgba(130, 13, 13, 50), rgba(14, 14, 15, 25));
+    box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.75);
+}
+
+#woot.selected {
+    background: linear-gradient(to bottom,rgba(0, 200, 0, 1) 0,rgba(0, 120, 0, 1) 100%);
+}
+
+
+#chat .mention.is-you:nth-child(2n+1) {
+    background: #111317
+    border-left:#ffdd6f 3px solid
+;
+}
+
+#chat .mention.is-you {
+    background: #0a0a0a;
+    border-left: #ffdd6f 3px solid
+;
+}
+
+div.from {
+    float: left;
+    z-index: 2;
+    height: 10px
+;
+}
+
+#chat .from::after {
+    content: "   "
+;
+}
+
+#chat .msg {
+    padding: 5px 8px 6px 10px;
+}
+
+div.left-meta{
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 100%);
+	border-style: hidden;
+}
+
+#footer{
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 100%);
+	border-style: hidden;
+}
+
+#playlist-button {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) 100%);
+}
+
+#chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome {
+    -moz-animation: fadein 0.25s;
+    -ms-animation: fadein 0.25s;
+    -o-animation: fadein 0.25s;
+    -webkit-animation: fadein 0.25s;
+    animation: fadein 0.25s;
+    background-color: #0E0E0F;
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+i.icon.icon-chat-host {
+    background-image: url('https://waa.ai/jLPY');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+i.icon.icon-chat-cohost {
+    background-image: url('https://waa.ai/jLpE');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+i.icon.icon-chat-manager {
+    background-image: url('https://waa.ai/jLPb');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+i.icon.icon-chat-bouncer {
+    background-image: url('https://waa.ai/jLPA');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+i.icon.icon-chat-dj {
+    background-image: url('https://waa.ai/jLPr');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+div.selected {
+}
+
+.header-panel-button.selected {
+    background-color: black;
+	border-style: hidden;
+}
+
+#history-button {
+    background-color: black;
+	border-style: hidden;
+}
+
+#history-button.selected {
+    background-color: black;
+	border-style: hidden;
+}
+
+.app-header {
+    background-color: black;
+}
+
+#playlist-menu {
+    background-color: rgba(0,0,0,0.8);
+}
+
+#playlist-panel{
+	background-color: rgba(0,0,0,0.5);
+}
+
+#toast-notifications .notification .left {
+    background: linear-gradient(to bottom, rgba(21, 120, 29, 0), rgb(0,0,0) 100%);
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 3px 3px 20px 0 rgba(0, 0, 0, 0.75);
+}
+#now-playing-bar {
+    font-family: Helvetica;
+	font-weight: bold;
+}
+
+#room-name {
+    font-family: Helvetica;
+	font-weight: bold;
+}
+
+#now-playing-media {
+    font-family: Helvetica;
+	font-weight: bold;
+}
+
+span.bar-value {
+    font-family: Helvetica;
+}
+
+div.section.bar-value span {
+    font-family: Helvetica;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	text-decoration: none;
+}
+
+div.inventory.button {
+	background-color: black;
+}
+
+div.badge.button {
+	background-color: black;
+}
+
+div.store.button {
+	background-color: black;
+}
+
+div.profile.button {
+	background-color: black;
+}
+
+div.settings.button {
+	background-color: black;
+}
+
+div#playback-container {
+	background-image: url('https://waa.ai/jbwF');
+	background-position: center;
+	background-repeat: no-repeat;
+}
