@@ -1,0 +1,28 @@
+{
+    "author": "parkeerwacht",
+    "colors": {
+        "background": "",
+        "chat": {
+            "bouncer": "CDDC39",
+            "cohost": "F44336",
+            "residentdj": "4CAF50",
+            "host": "F44336",
+            "manager": "00B8D4"
+        },
+        "footer": "",
+        "header": ""
+    },
+    "css": {
+        "import": ["https://rawgit.com/parkeerwacht/custom/master/agm.css"]
+		},
+    "images": {
+        "background": "http://i.imgur.com/CbvdeO2.jpg",
+        "playback": "http://i.imgur.com/Ydut8dx.png"
+    },
+    "rules": {
+        "allowAutojoin": "false",
+        "allowAutorespond": "false",
+        "allowAutowoot": "true"
+    },
+	"autocomplete": [{ "preset": "basicbot"}]
+}
