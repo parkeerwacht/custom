@@ -13,7 +13,7 @@
         "header": ""
     },
     "css": {
-        "import": ["https://rawgit.com/parkeerwacht/custom/master/agm.css"]
+        "import": ["https://rawgit.com/parkeerwacht/custom/master/AGM.css"]
 		},
     "images": {
         "background": "http://i.imgur.com/CbvdeO2.jpg",
