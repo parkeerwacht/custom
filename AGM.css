@@ -129,31 +129,31 @@ div.left-meta{
 }
 
 i.icon.icon-chat-host {
-    background-image: url('https://waa.ai/jLPY');
+    background-image: url('http://i.imgur.com/pWkq4Nd.png');
     background-repeat: no-repeat;
     background-position: left top;
 }
 
 i.icon.icon-chat-cohost {
-    background-image: url('https://waa.ai/jLpE');
+    background-image: url('http://i.imgur.com/pWkq4Nd.png');
     background-repeat: no-repeat;
     background-position: left top;
 }
 
 i.icon.icon-chat-manager {
-    background-image: url('https://waa.ai/jLPb');
+    background-image: url('http://i.imgur.com/LEaf5da.png');
     background-repeat: no-repeat;
     background-position: left top;
 }
 
 i.icon.icon-chat-bouncer {
-    background-image: url('https://waa.ai/jLPA');
+    background-image: url('http://i.imgur.com/V7WekpV.png');
     background-repeat: no-repeat;
     background-position: left top;
 }
 
 i.icon.icon-chat-dj {
-    background-image: url('https://waa.ai/jLPr');
+    background-image: url('http://i.imgur.com/eHVbEY4.png');
     background-repeat: no-repeat;
     background-position: left top;
 }
@@ -241,7 +241,7 @@ div.settings.button {
 }
 
 div#playback-container {
-	background-image: url('https://waa.ai/jbwF');
+	background-image: url('http://i.imgur.com/w9BLakI.png');
 	background-position: center;
 	background-repeat: no-repeat;
 }
